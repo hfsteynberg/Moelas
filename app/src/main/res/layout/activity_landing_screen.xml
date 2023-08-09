@@ -121,6 +121,7 @@
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
         android:layout_width="210dp"
         android:layout_height="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -131,7 +132,6 @@
         android:textSize="18sp"
         app:cornerRadius="5dp"
         android:backgroundTint="@color/secondary_blue">
-
     </com.google.android.material.button.MaterialButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
