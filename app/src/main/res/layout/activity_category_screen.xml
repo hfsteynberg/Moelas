@@ -69,7 +69,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Category Select:"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/secondary_blue"/>
     </LinearLayout>
 
     <LinearLayout
@@ -229,6 +230,23 @@
             android:text="General Skills, revolves around general knowledge, helping you expand your general financial knowledge - Learn the basics HERE!"
             android:textColor="@color/secondary_blue"
             android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Entered Name"
+            android:textSize="20sp"
+            android:textColor="@color/secondary_blue"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
